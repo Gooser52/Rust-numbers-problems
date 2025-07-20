@@ -20,7 +20,7 @@ pub fn run() {
     let mut y = 5; //remove u32 because different integer types cannot be made equal. i32 is default so implied
 
     // You can modify y now
-    y = x as u32;
+    y = x;
 
     let _z = 10; // Type of z ? i32 because it is default. (added _ to z because unused variable)
 

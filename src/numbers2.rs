@@ -7,7 +7,7 @@
 
 // Fill the blank
 pub fn run() {
-    let v: u16 = 38_u8 as u16; // cannot initialise a variable that expects an integer type as a different integer type, but we can by using the as function and adding u16
+    let _v: u16 = 38_u8 as u16; // cannot initialise a variable that expects an integer type as a different integer type, but we can by using the as function and adding u16
 
     println!("Success");
 }
