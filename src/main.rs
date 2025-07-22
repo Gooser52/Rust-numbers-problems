@@ -7,6 +7,8 @@ mod numbers6;
 mod numbers7;
 mod numbers8;
 mod numbers9;
+mod numbers10;
+mod numbers11;
 
 fn main() {
     numbers1::run();
@@ -18,4 +20,6 @@ fn main() {
     numbers7::run();
     numbers8::run();
     numbers9::run();
+    numbers10::run();
+    numbers11::run();
 }
